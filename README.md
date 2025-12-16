@@ -29,7 +29,7 @@ or more by prior arrangement with the instructor.)
 Course grades have three components:
 
 * **Quiz** (.1): Most classes will begin with a short quiz.
-The questions will be easy to answer if you read the paper.
+The questions will be easy to answer if you read the papers.
 * **Present a paper** (.3): Students will each lead a discussion on a paper twice (or so), likely in teams
 depending on course enrollment.
 The student leading the discussion will prepare a 30 minute presentation using slides,
@@ -52,6 +52,7 @@ The quiz requirement will be the same. -->
 # Schedule
 
 [This google doc serves as our schedule.](https://docs.google.com/spreadsheets/d/1qYS6aMa5TyBz1OmN1CT787XdBiAisVg9pACr-XSaN9A/edit?gid=0#gid=0)
+A tentative schedule follows.
 We may spend more or less time on a topic depending on student interest.
 
 | Date (Tue) | Topic |
@@ -89,5 +90,5 @@ bring
 setup
 * projector
 * camera
-* [zoom](https://cornell.zoom.us/j/2447222620)
+* [zoom](https://stanford.zoom.us/j/6394072382?pwd=bndKcXBpRFdOb2x5VFhuT0kzN1QvQT09)
 * share screen
