@@ -5,6 +5,12 @@ url: ""
 
 theme: "just-the-docs"
 
+# Exclude files from Jekyll processing
+exclude:
+  - topic-notes.md
+  - lec/*.md
+  - lec/**/*.md
+
 # Just-the-Docs specific settings
 search_enabled: true
 aux_links:
