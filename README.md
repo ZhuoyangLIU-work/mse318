@@ -20,6 +20,16 @@ which will constitute a majority of the grade.
 * **Where:** [McCullough 122](https://campus-map.stanford.edu/?srch=McCullough+122) or on [Zoom](https://stanford.zoom.us/j/6394072382?pwd=bndKcXBpRFdOb2x5VFhuT0kzN1QvQT09) by prior arrangement with the instructor
 * You can schedule [Office hours](https://calendar.app.google/sCu1wpZXkUdAXdA59) on this calendar or chat with Prof. Udell after class.
 
+# Learning goals
+
+Students who complete the course should be able to:
+
+* Formulate AI problems with explicit hard constraints and identify appropriate enforcement mechanisms.
+* Compare Lagrangian, projection-based, and solver-in-the-loop approaches theoretically and empirically.
+* Critically evaluate safety and alignment claims in modern ML papers.
+* Design a constrained AI system with provable guarantees or well-justified approximations.
+* Contribute to the research literature on constrained and safe AI, at the level of a workshop or conference submission to ICML, NeurIPS, or ICLR.
+
 # Course format and requirements
 
 Students are required to attend class, with at most one absence.
@@ -28,8 +38,8 @@ or more by prior arrangement with the instructor.)
 
 Course grades have three components:
 
-* **Quiz** (.1): Most classes will begin with a short quiz.
-The questions will be easy to answer if you read the papers.
+* **Quiz** (.1): Most classes will begin with a short quiz to reinforce the main ideas of the reading.
+Your lowest quiz score will be dropped.
 * **Present a paper** (.3): Students will each lead a discussion on a paper twice (or so), likely in teams
 depending on course enrollment.
 The student leading the discussion will prepare a 30 minute presentation using slides,
@@ -63,9 +73,9 @@ We may spend more or less time on a topic depending on student interest.
 | 1/27/2026 | Reinforcement learning |
 | 2/3/2026 | Reinforcement learning |
 | 2/10/2026 | Projection |
-| 2/17/2026 | LLM alignment |
-| 2/24/2026 | Declarative programming |
-| 3/3/2026 | Editing |
+| 2/17/2026 | Declarative programming |
+| 2/24/2026 | LLM alignment |
+| 3/3/2026 | Model Editing and Post-Training Interventions |
 | 3/10/2026 | Synthesis and future directions |
 
 <!-- Sign up for presentation slots on the google doc
@@ -73,10 +83,49 @@ by adding your name and a link to the paper you'll present.
 (Make sure not to choose a paper someone else has already picked!)
 We may spend more or less time on a topic depending on student interest. -->
 
-# Checklist for presentations
+# Presentations
 
-presentations include
-* quiz
+## Outline
+
+1. Intro
+    - how does this topic relate to the course goal of enabling safe and constrained AI?
+    - what is the core idea?
+    - what applications does it target?
+2. Literature review
+    - what are the important papers and ideas?
+    - walk us through the intellectual history
+3. Deep dive
+    - pick one or two papers, and take us through the main idea and results
+    - extract some core mathematical insights, and choose one to explain on the board. could be a theorem or result from the paper, or some older mathematics that motivates the approach. feel free to show how it works on a simple example, like a quadratic objective with linear constraints.
+4. Results
+    - summary of numerical results from papers
+    - do you think the results are good or bad? Are there obvious omissions?
+5. Open directions
+    - what are the important problems that you think could be addressed with these ideas, but haven't yet been?
+    - is there a key challenge that restricts the usefulness of this approach?
+
+You might also loop through 2-5 several times, one for each of the most important papers in your stack.
+
+## An AI-forward protocol
+
+Here's the best workflow I've found for producing good presentations on new topics.
+
+1. Collect a list of papers and authors whose work you admire on the topic.
+2. Use that list to prompt a frontier LLM (GPT5, Gemini) to do deep research on the topic and write a report. A prompt might be, "Summarize the state of the art in <field>, including work by <authors>." You might also inject your own biases and interests here.
+3. Ask Claude code to download all the references in the report into a folder on your computer. 
+4. Read the report, and skim the papers to check that the understanding you gleaned from the report is correct.
+5. Upload all the papers to NotebookLM. 
+6. Have a conversation with NotebookLM to deepen your understanding of the topic and ask more detailed mathematical questions about the papers.
+7. Write a script for a presentation you'd like to give on the topic, noting the high level points you'd want to make, or categories or topics you'd want to hit, or conclusions you'd like to come to. Ask NotebookLM to create a slide deck, using your script as the prompt. Here's a prompt I've used:
+
+> Develop a tutorial review of standard ideas in constrained optimization, in particular lagrangian methods and duality, with an eye towards their use in a modern deep learning setting for a PhD audience already familiar with optimization at the level of Boyd and Vandenberghe. Use a plain, latex beamer style slide template with a white background. All numerical results (in particular, tables and figures) must exactly match the source material and reference the source.
+
+8. Study the materials and practice your presentation. Be meticulous and make sure you believe and can justify every claim on the slides.
+
+## Checklist
+
+In addition to following the above outline (approximately), presentations must include
+* quiz (2 questions that are easy to answer from the required reading)
 * discussion questions or class activity
 
 before the presentation
