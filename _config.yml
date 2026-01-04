@@ -1,7 +1,7 @@
 title: "MS&E 318: Constrained and Safe AI"
 description: "Advanced PhD seminar on algorithmic methods for safe and constrained AI"
-baseurl: ""
-url: ""
+baseurl: "/mse318"
+url: "https://madeleineudell.github.io"
 
 theme: "just-the-docs"
 
@@ -9,7 +9,7 @@ theme: "just-the-docs"
 search_enabled: true
 aux_links:
   "Course on GitHub":
-    - "https://github.com/stanford-mse318/course"
+    - "https://github.com/madeleineudell/mse318"
   "Google Sheets Schedule":
     - "https://docs.google.com/spreadsheets/d/1qYS6aMa5TyBz1OmN1CT787XdBiAisVg9pACr-XSaN9A/edit?gid=0#gid=0"
 
