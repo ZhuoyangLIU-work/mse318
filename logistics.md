@@ -22,7 +22,7 @@ nav_order: 2
 **Where:** [McCullough 122](https://campus-map.stanford.edu/?srch=McCullough+122)
 
 **Zoom Option:** Available by prior arrangement with the instructor
-[Join Zoom Meeting](https://stanford.zoom.us/j/6394072382?pwd=bndKcXBpRFdOb2x5VFhuT0kzN1QvQT09)
+[Join Zoom Meeting](https://stanford.zoom.us/j/93239969692?pwd=xbDZj3kOgZDQ45nd5paWKhSKBMEoZ8.1)
 
 ## Office Hours
 
