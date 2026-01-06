@@ -31,7 +31,7 @@ Most classes will begin with a short quiz to reinforce the main ideas of the rea
 
 ### Present a Paper (30%)
 
-Students will each lead a discussion on a paper twice (or so), likely in teams depending on course enrollment.
+Students will each lead a discussion on a paper, likely in teams depending on course enrollment.
 
 The student leading the discussion will prepare:
 - A 30 minute presentation using slides
@@ -43,6 +43,7 @@ See the [Presentations](presentations) page for detailed guidelines.
 ### Research Project (60%)
 
 The final research project should explore a new idea for safe and constrained AI.
+Research projects can (and should!) advance your PhD research.
 
 **Team Size:** Projects can be in teams of up to three students except by special advance permission from the instructor.
 
@@ -50,6 +51,5 @@ The final research project should explore a new idea for safe and constrained AI
 - Initial project proposal
 - Midterm report
 - Final report
-- In-class presentation (optional/as scheduled)
+See [slides](https://docs.google.com/presentation/d/1GHZwFrmUIJJtKCml5brKb3grHFze_ciVbMOoU-kMuF8/edit?usp=sharing) for more details on requirements and format.
 
-**Important:** Research projects can (and should!) advance your PhD research.

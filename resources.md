@@ -17,20 +17,24 @@ nav_order: 7
 
 ## Lecture Materials
 
-### Lecture 1: Introduction
-- [Lecture 1 Outline](lec/lec1.md)
-- [Applications Framework](lec/lec1/applications.md)
-- [Applications PDF](lec/lec1/applications.pdf)
+- [Zotero export](papers/zotero.pdf) contains selected papers I've found on constrained and safe AI as of the first day of the course.
+- [Zotero bib](papers/zotero-bib.pdf) contains bibliography entries only for the same papers.
 
-#### Lecture 1 Slides and Papers
-- [Constrained Deep Learning Duality](lec/lec1/Constrained_Deep_Learning_Duality.pdf)
+### Lecture 1: Introduction
+- [Lecture 1 slides](https://docs.google.com/presentation/d/1hWfI4J8VLtQBtpgG6QSIKgJv2suyiuWgN-y3B9Kfo9Q/edit?slide=id.g3b4d17a504e_0_10#slide=id.g3b4d17a504e_0_10)
+- [Applications lecture notes](lec/lec1/applications.pdf)
+- [Applications slides]()
+- [Foundational concepts slides](lec/lec1/Lagrangian_and_Repair_Hard_Constraints.pdf)
+
+#### Lecture 1 Papers
+<!-- - [Constrained Deep Learning Duality](lec/lec1/Constrained_Deep_Learning_Duality.pdf)
 - [Constrained AI Frontiers](lec/lec1/Constrained_AI_Frontiers.pdf)
-- [Lagrangian and Repair Hard Constraints](lec/lec1/Lagrangian_and_Repair_Hard_Constraints.pdf)
+- [Lagrangian and Repair Hard Constraints](lec/lec1/Lagrangian_and_Repair_Hard_Constraints.pdf) -->
 - [Adopt Constraints Over Penalties (Ramirez et al., 2025)](lec/lec1/2505.20628v3.pdf)
 - [Optimization Learning (Van Hentenryck, 2025)](lec/lec1/2501.03443v1.pdf)
-- [HardNet Paper (Min & Azizan, 2025)](lec/lec1/2410.10807v4%20(1).pdf)
+<!-- - [HardNet Paper (Min & Azizan, 2025)](lec/lec1/2410.10807v4%20(1).pdf) -->
 - [Fioretto & Van Hentenryck (2020)](lec/lec1/2001.09394v2.pdf)
-- [Boyd & Vandenberghe Convex Optimization Book](lec/lec1/bv_cvxbook.pdf)
+<!-- - [Boyd & Vandenberghe Convex Optimization Book](lec/lec1/bv_cvxbook.pdf) -->
 
 ---
 
@@ -46,7 +50,6 @@ nav_order: 7
 
 ### Projections
 - [Projections Reference](papers/projections.pdf)
-- [Zotero Reference](papers/zotero.pdf)
 
 ---
 
